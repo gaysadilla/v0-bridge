@@ -1,0 +1,46 @@
+/* AUI Theme CSS - Import this for instant Asurion branding */
+/* Usage: Add <link rel="stylesheet" href="https://your-vercel-url.vercel.app/aui-theme.css"> */
+
+:root {
+  /* Asurion Brand Colors */
+  --aui-primary: #8223d2;
+  --aui-primary-foreground: #ffffff;
+  --aui-accent: #4a68f9;
+  --aui-accent-foreground: #ffffff;
+  --aui-background: #ffffff;
+  --aui-foreground: #1a1c1e;
+  --aui-muted: #f1f0f4;
+  --aui-muted-foreground: #5d5e61;
+  --aui-border: #c6c6ca;
+  --aui-success: #136d31;
+  --aui-warning: #e7c500;
+  --aui-error: #b91a24;
+}
+
+/* ShadCN Compatible Classes */
+.bg-primary { background-color: var(--aui-primary) !important; }
+.text-primary { color: var(--aui-primary) !important; }
+.bg-accent { background-color: var(--aui-accent) !important; }
+.text-accent { color: var(--aui-accent) !important; }
+.border-primary { border-color: var(--aui-primary) !important; }
+
+/* Button Overrides */
+.btn-primary, [data-variant="primary"] {
+  background-color: var(--aui-primary) !important;
+  color: var(--aui-primary-foreground) !important;
+  border: none !important;
+}
+
+.btn-secondary, [data-variant="secondary"] {
+  background-color: var(--aui-accent) !important;
+  color: var(--aui-accent-foreground) !important;
+}
+
+/* Force AUI branding on common AI-generated elements */
+button[class*="bg-blue"], .bg-blue-600, .bg-blue-500 {
+  background-color: var(--aui-primary) !important;
+}
+
+button[class*="bg-green"], .bg-green-600, .bg-green-500 {
+  background-color: var(--aui-accent) !important;
+}
