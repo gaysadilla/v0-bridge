@@ -1,48 +1,61 @@
 :root {
-  --background: oklch(0.97 0.01 80.72);
-  --foreground: oklch(0.3 0.04 30.2);
+  /* AUI Brand Colors - Update these with actual Asurion brand tokens */
+  --aui-primary-blue: #0066CC;
+  --aui-secondary-teal: #00A8B5;
+  --aui-accent-purple: #6B46C1;
+  --aui-neutral-gray: #6B7280;
+  --aui-success-green: #10B981;
+  --aui-warning-orange: #F59E0B;
+  --aui-error-red: #EF4444;
 
-  --card: oklch(0.97 0.01 80.72);
-  --card-foreground: oklch(0.3 0.04 30.2);
+  /* AUI Foundation Colors */
+  --background: #FFFFFF;
+  --foreground: #111827;
 
-  --popover: oklch(0.97 0.01 80.72);
-  --popover-foreground: oklch(0.3 0.04 30.2);
+  --card: #FFFFFF;
+  --card-foreground: #111827;
 
-  --primary: oklch(0.52 0.13 144.17);
-  --primary-foreground: oklch(1.0 0 0);
+  --popover: #FFFFFF;
+  --popover-foreground: #111827;
 
-  --secondary: oklch(0.96 0.02 147.64);
-  --secondary-foreground: oklch(0.43 0.12 144.31);
+  --primary: var(--aui-primary-blue);
+  --primary-foreground: #FFFFFF;
 
-  --muted: oklch(0.94 0.01 74.42);
-  --muted-foreground: oklch(0.45 0.05 39.21);
+  --secondary: #F3F4F6;
+  --secondary-foreground: #374151;
 
-  --accent: oklch(0.9 0.05 146.04);
-  --accent-foreground: oklch(0.43 0.12 144.31);
+  --muted: #F9FAFB;
+  --muted-foreground: var(--aui-neutral-gray);
 
-  --destructive: oklch(0.54 0.19 26.72);
-  --destructive-foreground: oklch(1.0 0 0);
+  --accent: var(--aui-secondary-teal);
+  --accent-foreground: #FFFFFF;
 
-  --border: oklch(0.88 0.02 74.64);
-  --input: oklch(0.88 0.02 74.64);
-  --ring: oklch(0.52 0.13 144.17);
+  --destructive: var(--aui-error-red);
+  --destructive-foreground: #FFFFFF;
 
-  --chart-1: oklch(0.67 0.16 144.21);
-  --chart-2: oklch(0.58 0.14 144.18);
-  --chart-3: oklch(0.52 0.13 144.17);
-  --chart-4: oklch(0.43 0.12 144.31);
-  --chart-5: oklch(0.22 0.05 145.73);
+  --border: #E5E7EB;
+  --input: #E5E7EB;
+  --ring: var(--aui-primary-blue);
 
-  --sidebar: oklch(0.94 0.01 74.42);
-  --sidebar-foreground: oklch(0.3 0.04 30.2);
-  --sidebar-primary: oklch(0.52 0.13 144.17);
-  --sidebar-primary-foreground: oklch(1.0 0 0);
-  --sidebar-accent: oklch(0.9 0.05 146.04);
-  --sidebar-accent-foreground: oklch(0.43 0.12 144.31);
-  --sidebar-border: oklch(0.88 0.02 74.64);
-  --sidebar-ring: oklch(0.52 0.13 144.17);
+  /* AUI Chart Colors */
+  --chart-1: var(--aui-primary-blue);
+  --chart-2: var(--aui-secondary-teal);
+  --chart-3: var(--aui-accent-purple);
+  --chart-4: var(--aui-success-green);
+  --chart-5: var(--aui-warning-orange);
 
-  --radius: 0.5rem;
+  /* AUI Sidebar Colors */
+  --sidebar: #F9FAFB;
+  --sidebar-foreground: #111827;
+  --sidebar-primary: var(--aui-primary-blue);
+  --sidebar-primary-foreground: #FFFFFF;
+  --sidebar-accent: var(--aui-secondary-teal);
+  --sidebar-accent-foreground: #FFFFFF;
+  --sidebar-border: #E5E7EB;
+  --sidebar-ring: var(--aui-primary-blue);
+
+  /* AUI Design System - Border Radius */
+  --radius: 0.375rem; /* 6px - More conservative AUI radius */
 
   --shadow-2xs: 0 1px 3px 0px hsl(0 0% 0% / 0.05);
   --shadow-xs: 0 1px 3px 0px hsl(0 0% 0% / 0.05);
@@ -59,48 +72,51 @@
 }
 
 .dark {
-  --background: oklch(0.15 0.01 74.42);
-  --foreground: oklch(0.95 0.02 80.72);
+  /* AUI Dark Mode Colors */
+  --background: #0F1419;
+  --foreground: #F9FAFB;
 
-  --card: oklch(0.12 0.01 80.72);
-  --card-foreground: oklch(0.95 0.02 80.72);
+  --card: #1F2937;
+  --card-foreground: #F9FAFB;
 
-  --popover: oklch(0.12 0.01 80.72);
-  --popover-foreground: oklch(0.95 0.02 80.72);
+  --popover: #1F2937;
+  --popover-foreground: #F9FAFB;
 
-  --primary: oklch(0.58 0.15 144.17);
-  --primary-foreground: oklch(0.09 0.01 80.72);
+  --primary: #3B82F6;
+  --primary-foreground: #FFFFFF;
 
-  --secondary: oklch(0.15 0.02 147.64);
-  --secondary-foreground: oklch(0.65 0.12 144.31);
+  --secondary: #374151;
+  --secondary-foreground: #D1D5DB;
 
-  --muted: oklch(0.18 0.01 74.42);
-  --muted-foreground: oklch(0.65 0.03 74.42);
+  --muted: #374151;
+  --muted-foreground: #9CA3AF;
 
-  --accent: oklch(0.22 0.04 146.04);
-  --accent-foreground: oklch(0.65 0.12 144.31);
+  --accent: #06B6D4;
+  --accent-foreground: #FFFFFF;
 
-  --destructive: oklch(0.62 0.22 26.72);
-  --destructive-foreground: oklch(0.95 0.02 80.72);
+  --destructive: #F87171;
+  --destructive-foreground: #FFFFFF;
 
-  --border: oklch(0.22 0.02 74.64);
-  --input: oklch(0.22 0.02 74.64);
-  --ring: oklch(0.58 0.15 144.17);
+  --border: #374151;
+  --input: #374151;
+  --ring: #3B82F6;
 
-  --chart-1: oklch(0.72 0.16 144.21);
-  --chart-2: oklch(0.63 0.14 144.18);
-  --chart-3: oklch(0.58 0.15 144.17);
-  --chart-4: oklch(0.48 0.12 144.31);
-  --chart-5: oklch(0.35 0.08 145.73);
+  /* AUI Dark Mode Chart Colors */
+  --chart-1: #3B82F6;
+  --chart-2: #06B6D4;
+  --chart-3: #8B5CF6;
+  --chart-4: #10B981;
+  --chart-5: #F59E0B;
 
-  --sidebar: oklch(0.15 0.01 74.42);
-  --sidebar-foreground: oklch(0.95 0.02 80.72);
-  --sidebar-primary: oklch(0.58 0.15 144.17);
-  --sidebar-primary-foreground: oklch(0.09 0.01 80.72);
-  --sidebar-accent: oklch(0.22 0.04 146.04);
-  --sidebar-accent-foreground: oklch(0.65 0.12 144.31);
-  --sidebar-border: oklch(0.22 0.02 74.64);
-  --sidebar-ring: oklch(0.58 0.15 144.17);
+  /* AUI Dark Mode Sidebar Colors */
+  --sidebar: #1F2937;
+  --sidebar-foreground: #F9FAFB;
+  --sidebar-primary: #3B82F6;
+  --sidebar-primary-foreground: #FFFFFF;
+  --sidebar-accent: #06B6D4;
+  --sidebar-accent-foreground: #FFFFFF;
+  --sidebar-border: #374151;
+  --sidebar-ring: #3B82F6;
 
   --shadow-2xs: 0 1px 3px 0px hsl(0 0% 0% / 0.05);
   --shadow-xs: 0 1px 3px 0px hsl(0 0% 0% / 0.05);

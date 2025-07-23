@@ -73,9 +73,28 @@ const config: Config = {
         "2xl": "var(--shadow-2xl)",
       },
       fontFamily: {
-        serif: ["var(--font-serif)", "sans-serif"],
-        sans: ["var(--font-sans)", "sans-serif"],
-        mono: ["var(--font-mono)", "monospace"],
+        // AUI Typography System
+        sans: ["Inter", "system-ui", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "sans-serif"],
+        serif: ["ui-serif", "Georgia", "serif"],
+        mono: ["ui-monospace", "SFMono-Regular", "Monaco", "Consolas", "monospace"],
+        display: ["Inter", "system-ui", "sans-serif"], // For headings
+      },
+      fontSize: {
+        // AUI Typography Scale
+        xs: ["0.75rem", { lineHeight: "1rem" }],
+        sm: ["0.875rem", { lineHeight: "1.25rem" }],
+        base: ["1rem", { lineHeight: "1.5rem" }],
+        lg: ["1.125rem", { lineHeight: "1.75rem" }],
+        xl: ["1.25rem", { lineHeight: "1.75rem" }],
+        "2xl": ["1.5rem", { lineHeight: "2rem" }],
+        "3xl": ["1.875rem", { lineHeight: "2.25rem" }],
+        "4xl": ["2.25rem", { lineHeight: "2.5rem" }],
+        "5xl": ["3rem", { lineHeight: "1" }],
+      },
+      spacing: {
+        // AUI Spacing Scale
+        "18": "4.5rem",
+        "88": "22rem",
       },
       keyframes: {
         "fade-in-scale": {

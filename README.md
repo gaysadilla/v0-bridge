@@ -1,9 +1,9 @@
-<a href="https://registry-starter.vercel.app/">
-  <h1 align="center">Registry Starter</h1>
+<a href="https://aui-v0-registry.vercel.app/">
+  <h1 align="center">AUI v0 Registry</h1>
 </a>
 
 <p align="center">
-    Registry Starter is a free, open-source template built with Next.js and Shadcn/ui Registry to accelerate your AI-Native Design System.
+    AUI v0 Registry is a custom component registry for Asurion's design system, built with Next.js and Shadcn/ui Registry. This enables "vibe coding" explorations with v0 that are visually consistent with Asurion's brand.
 </p>
 
 <p align="center">
@@ -16,9 +16,27 @@
 </p>
 <br/>
 
+## Overview
+
+This registry provides:
+- **AUI-branded components** that visually match Asurion's design system
+- **Custom Tailwind configuration** with Asurion brand tokens
+- **v0 integration** via "Open in v0" buttons for AI-powered design exploration
+- **Professional color palette** with primary blue (#0066CC) and secondary teal (#00A8B5)
+- **Enhanced component variants** for success, warning, info states
+
+## AUI Brand Colors
+
+- **Primary Blue**: `#0066CC` - Main brand color for primary actions
+- **Secondary Teal**: `#00A8B5` - Accent color for secondary elements  
+- **Accent Purple**: `#6B46C1` - For highlights and special states
+- **Success Green**: `#10B981` - For success states and confirmations
+- **Warning Orange**: `#F59E0B` - For warnings and cautions
+- **Error Red**: `#EF4444` - For errors and destructive actions
+
 ## Deploy Your Own
 
-You can deploy your own version of the Next.js Registry Starter to Vercel with one click:
+You can deploy your own version of the AUI v0 Registry to Vercel with one click:
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fregistry-starter&project-name=my-registry&repository-name=my-registry&demo-title=Registry%20Starter&demo-description=Registry%20Starter%20is%20a%20free%2C%20open-source%20template%20built%20with%20Next.js%20and%20Shadcn%2Fui%20Registry%20to%20accelerate%20your%20AI-Native%20Design%20System.&demo-url=https%3A%2F%2Fregistry-starter.vercel.app&demo-image=%2F%2Fregistry-starter.vercel.app%2Fpreview.png)
 
