@@ -1,0 +1,78 @@
+{
+  "$schema": "https://ui.shadcn.com/schema.json",
+  "style": "new-york",
+  "rsc": true,
+  "tsx": true,
+  "tailwind": {
+    "config": "tailwind.config.ts",
+    "css": "app/globals.css",
+    "baseColor": "neutral",
+    "cssVariables": true,
+    "prefix": ""
+  },
+  "aliases": {
+    "components": "@/components",
+    "utils": "@/lib/utils",
+    "ui": "@/components/ui",
+    "lib": "@/lib",
+    "hooks": "@/hooks"
+  },
+  "iconLibrary": "lucide",
+  "theme": {
+    "cssVars": {
+      "light": {
+        "background": "#ffffff",
+        "foreground": "#1a1c1e",
+        "card": "#ffffff",
+        "card-foreground": "#1a1c1e",
+        "popover": "#ffffff",
+        "popover-foreground": "#1a1c1e",
+        "primary": "#8223d2",
+        "primary-foreground": "#ffffff",
+        "secondary": "#edddf6",
+        "secondary-foreground": "#211829",
+        "muted": "#f1f0f4",
+        "muted-foreground": "#5d5e61",
+        "accent": "#4a68f9",
+        "accent-foreground": "#ffffff",
+        "destructive": "#b91a24",
+        "destructive-foreground": "#ffeae9",
+        "border": "#c6c6ca",
+        "input": "#eeedf1",
+        "ring": "#8223d2",
+        "chart-1": "#8223d2",
+        "chart-2": "#4a68f9",
+        "chart-3": "#6efac3",
+        "chart-4": "#136d31",
+        "chart-5": "#e7c500",
+        "radius": "0.25rem"
+      },
+      "dark": {
+        "background": "#252629",
+        "foreground": "#ffffff",
+        "card": "#252629",
+        "card-foreground": "#ffffff",
+        "popover": "#252629",
+        "popover-foreground": "#ffffff",
+        "primary": "#ca93ff",
+        "primary-foreground": "#590099",
+        "secondary": "#4a4256",
+        "secondary-foreground": "#c4b5d2",
+        "muted": "#353339",
+        "muted-foreground": "#9b9ca0",
+        "accent": "#4a68f9",
+        "accent-foreground": "#ffffff",
+        "destructive": "#ff6b75",
+        "destructive-foreground": "#ffffff",
+        "border": "#4a4a4e",
+        "input": "#3a3a3e",
+        "ring": "#ca93ff",
+        "chart-1": "#ca93ff",
+        "chart-2": "#4a68f9",
+        "chart-3": "#6efac3",
+        "chart-4": "#c5ffc8",
+        "chart-5": "#fff0c0"
+      }
+    }
+  }
+}

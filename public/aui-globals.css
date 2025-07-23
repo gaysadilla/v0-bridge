@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* AUI Design System - ShadCN Compatible CSS Variables */
+@layer base {
+  :root {
+    /* Asurion Brand Foundation */
+    --background: 255 255 255; /* #ffffff */
+    --foreground: 26 28 30; /* #1a1c1e */
+    --card: 255 255 255; /* #ffffff */
+    --card-foreground: 26 28 30; /* #1a1c1e */
+    --popover: 255 255 255; /* #ffffff */
+    --popover-foreground: 26 28 30; /* #1a1c1e */
+    
+    /* Asurion Purple Primary */
+    --primary: 130 35 210; /* #8223d2 */
+    --primary-foreground: 255 255 255; /* #ffffff */
+    
+    /* AUI Secondary */
+    --secondary: 237 221 246; /* #edddf6 */
+    --secondary-foreground: 33 24 41; /* #211829 */
+    
+    /* AUI Neutral Tones */
+    --muted: 241 240 244; /* #f1f0f4 */
+    --muted-foreground: 93 94 97; /* #5d5e61 */
+    
+    /* Asurion Blue Accent */
+    --accent: 74 104 249; /* #4a68f9 */
+    --accent-foreground: 255 255 255; /* #ffffff */
+    
+    /* Status Colors */
+    --destructive: 185 26 36; /* #b91a24 */
+    --destructive-foreground: 255 234 233; /* #ffeae9 */
+    
+    /* UI Elements */
+    --border: 198 198 202; /* #c6c6ca */
+    --input: 238 237 241; /* #eeedf1 */
+    --ring: 130 35 210; /* #8223d2 */
+    
+    /* Chart Colors */
+    --chart-1: 130 35 210; /* #8223d2 */
+    --chart-2: 74 104 249; /* #4a68f9 */
+    --chart-3: 110 250 195; /* #6efac3 */
+    --chart-4: 19 109 49; /* #136d31 */
+    --chart-5: 231 197 0; /* #e7c500 */
+    
+    --radius: 0.25rem;
+  }
+
+  .dark {
+    /* Dark Mode - Asurion Inverse Colors */
+    --background: 37 38 41; /* #252629 */
+    --foreground: 255 255 255; /* #ffffff */
+    --card: 37 38 41; /* #252629 */
+    --card-foreground: 255 255 255; /* #ffffff */
+    --popover: 37 38 41; /* #252629 */
+    --popover-foreground: 255 255 255; /* #ffffff */
+    
+    --primary: 202 147 255; /* #ca93ff */
+    --primary-foreground: 89 0 153; /* #590099 */
+    
+    --secondary: 74 66 86; /* #4a4256 */
+    --secondary-foreground: 196 181 210; /* #c4b5d2 */
+    
+    --muted: 53 51 57; /* #353339 */
+    --muted-foreground: 155 156 160; /* #9b9ca0 */
+    
+    --accent: 74 104 249; /* #4a68f9 */
+    --accent-foreground: 255 255 255; /* #ffffff */
+    
+    --destructive: 255 107 117; /* #ff6b75 */
+    --destructive-foreground: 255 255 255; /* #ffffff */
+    
+    --border: 74 74 78; /* #4a4a4e */
+    --input: 58 58 62; /* #3a3a3e */
+    --ring: 202 147 255; /* #ca93ff */
+    
+    --chart-1: 202 147 255; /* #ca93ff */
+    --chart-2: 74 104 249; /* #4a68f9 */
+    --chart-3: 110 250 195; /* #6efac3 */
+    --chart-4: 197 255 200; /* #c5ffc8 */
+    --chart-5: 255 240 192; /* #fff0c0 */
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
