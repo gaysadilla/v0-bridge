@@ -45,6 +45,7 @@ const blockItems = getBlocks();
 
 export const gettingStartedItems = [
   { title: "Home", path: "/" },
+  { title: "🎨 Token Playground", path: "/playground" },
   { title: "Design Tokens", path: "/tokens" },
 ];
 
