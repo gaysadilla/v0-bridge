@@ -22,17 +22,18 @@ This registry provides:
 - **AUI-branded components** that visually match Asurion's design system
 - **Custom Tailwind configuration** with Asurion brand tokens
 - **v0 integration** via "Open in v0" buttons for AI-powered design exploration
-- **Professional color palette** with primary blue (#0066CC) and secondary teal (#00A8B5)
+- **Authentic Asurion brand palette** with purple (#8223d2) primary and blue (#4a68f9) accent
 - **Enhanced component variants** for success, warning, info states
 
-## AUI Brand Colors
+## Authentic AUI Brand Colors
 
-- **Primary Blue**: `#0066CC` - Main brand color for primary actions
-- **Secondary Teal**: `#00A8B5` - Accent color for secondary elements  
-- **Accent Purple**: `#6B46C1` - For highlights and special states
-- **Success Green**: `#10B981` - For success states and confirmations
-- **Warning Orange**: `#F59E0B` - For warnings and cautions
-- **Error Red**: `#EF4444` - For errors and destructive actions
+- **Asurion Purple**: `#8223d2` - Primary brand color for main actions
+- **Asurion Blue**: `#4a68f9` - Accent color for interactive elements  
+- **Asurion Green**: `#6efac3` - For positive states and highlights
+- **Asurion Yellow**: `#d2fa46` - For special states and "tennis ball" moments
+- **Success**: `#136d31` - For success states and confirmations
+- **Warning**: `#e7c500` - For warnings and cautions
+- **Error**: `#b91a24` - For errors and destructive actions
 
 ## Deploy Your Own
 

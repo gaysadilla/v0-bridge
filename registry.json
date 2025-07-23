@@ -8,21 +8,35 @@
       "type": "registry:style",
       "cssVars": {
         "light": {
-          "primary": "#0066CC",
-          "primary-foreground": "#FFFFFF",
-          "secondary": "#00A8B5",
-          "secondary-foreground": "#FFFFFF",
-          "accent": "#6B46C1",
-          "accent-foreground": "#FFFFFF",
-          "radius": "0.375rem"
+          "primary": "#8223d2",
+          "primary-foreground": "#ffffff",
+          "secondary": "#edddf6",
+          "secondary-foreground": "#211829",
+          "accent": "#4a68f9",
+          "accent-foreground": "#ffffff",
+          "muted": "#f1f0f4",
+          "muted-foreground": "#5d5e61",
+          "destructive": "#b91a24",
+          "destructive-foreground": "#ffeae9",
+          "border": "#c6c6ca",
+          "input": "#eeedf1",
+          "ring": "#8223d2",
+          "radius": "0.25rem"
         },
         "dark": {
-          "primary": "#3B82F6",
-          "primary-foreground": "#FFFFFF",
-          "secondary": "#06B6D4",
-          "secondary-foreground": "#FFFFFF",
-          "accent": "#8B5CF6",
-          "accent-foreground": "#FFFFFF"
+          "primary": "#ca93ff",
+          "primary-foreground": "#590099",
+          "secondary": "#4a4256",
+          "secondary-foreground": "#c4b5d2",
+          "accent": "#4a68f9",
+          "accent-foreground": "#ffffff",
+          "muted": "#353339",
+          "muted-foreground": "#9b9ca0",
+          "destructive": "#ff6b75",
+          "destructive-foreground": "#ffffff",
+          "border": "#4a4a4e",
+          "input": "#3a3a3e",
+          "ring": "#ca93ff"
         }
       },
       "files": []

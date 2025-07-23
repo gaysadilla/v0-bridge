@@ -1,61 +1,60 @@
 :root {
-  /* AUI Brand Colors - Update these with actual Asurion brand tokens */
-  --aui-primary-blue: #0066CC;
-  --aui-secondary-teal: #00A8B5;
-  --aui-accent-purple: #6B46C1;
-  --aui-neutral-gray: #6B7280;
-  --aui-success-green: #10B981;
-  --aui-warning-orange: #F59E0B;
-  --aui-error-red: #EF4444;
+  /* Authentic AUI Brand Colors */
+  --aui-brand-white: #ffffff;
+  --aui-brand-black: #0c0e11;
+  --aui-brand-asurion-purple: #8223d2;
+  --aui-brand-asurion-yellow: #d2fa46;
+  --aui-brand-asurion-blue: #4a68f9;
+  --aui-brand-asurion-green: #6efac3;
 
-  /* AUI Foundation Colors */
-  --background: #FFFFFF;
-  --foreground: #111827;
+  /* AUI Foundation Colors (Light Mode) */
+  --background: var(--aui-brand-white);
+  --foreground: #1a1c1e;
 
-  --card: #FFFFFF;
-  --card-foreground: #111827;
+  --card: var(--aui-brand-white);
+  --card-foreground: #1a1c1e;
 
-  --popover: #FFFFFF;
-  --popover-foreground: #111827;
+  --popover: var(--aui-brand-white);
+  --popover-foreground: #1a1c1e;
 
-  --primary: var(--aui-primary-blue);
-  --primary-foreground: #FFFFFF;
+  --primary: var(--aui-brand-asurion-purple);
+  --primary-foreground: var(--aui-brand-white);
 
-  --secondary: #F3F4F6;
-  --secondary-foreground: #374151;
+  --secondary: #edddf6;
+  --secondary-foreground: #211829;
 
-  --muted: #F9FAFB;
-  --muted-foreground: var(--aui-neutral-gray);
+  --muted: #f1f0f4;
+  --muted-foreground: #5d5e61;
 
-  --accent: var(--aui-secondary-teal);
-  --accent-foreground: #FFFFFF;
+  --accent: var(--aui-brand-asurion-blue);
+  --accent-foreground: var(--aui-brand-white);
 
-  --destructive: var(--aui-error-red);
-  --destructive-foreground: #FFFFFF;
+  --destructive: #b91a24;
+  --destructive-foreground: #ffeae9;
 
-  --border: #E5E7EB;
-  --input: #E5E7EB;
-  --ring: var(--aui-primary-blue);
+  --border: #c6c6ca;
+  --input: #eeedf1;
+  --ring: var(--aui-brand-asurion-purple);
 
   /* AUI Chart Colors */
-  --chart-1: var(--aui-primary-blue);
-  --chart-2: var(--aui-secondary-teal);
-  --chart-3: var(--aui-accent-purple);
-  --chart-4: var(--aui-success-green);
-  --chart-5: var(--aui-warning-orange);
+  --chart-1: var(--aui-brand-asurion-purple);
+  --chart-2: var(--aui-brand-asurion-blue);
+  --chart-3: var(--aui-brand-asurion-green);
+  --chart-4: #136d31;
+  --chart-5: #e7c500;
 
   /* AUI Sidebar Colors */
-  --sidebar: #F9FAFB;
-  --sidebar-foreground: #111827;
-  --sidebar-primary: var(--aui-primary-blue);
-  --sidebar-primary-foreground: #FFFFFF;
-  --sidebar-accent: var(--aui-secondary-teal);
-  --sidebar-accent-foreground: #FFFFFF;
-  --sidebar-border: #E5E7EB;
-  --sidebar-ring: var(--aui-primary-blue);
+  --sidebar: #f1f0f4;
+  --sidebar-foreground: #1a1c1e;
+  --sidebar-primary: var(--aui-brand-asurion-purple);
+  --sidebar-primary-foreground: var(--aui-brand-white);
+  --sidebar-accent: var(--aui-brand-asurion-blue);
+  --sidebar-accent-foreground: var(--aui-brand-white);
+  --sidebar-border: #c6c6ca;
+  --sidebar-ring: var(--aui-brand-asurion-purple);
 
-  /* AUI Design System - Border Radius */
-  --radius: 0.375rem; /* 6px - More conservative AUI radius */
+  /* AUI Design System - Border Radius (from actual tokens) */
+  --radius: 0.25rem; /* matches --aui-border-radius-050 */
 
   --shadow-2xs: 0 1px 3px 0px hsl(0 0% 0% / 0.05);
   --shadow-xs: 0 1px 3px 0px hsl(0 0% 0% / 0.05);
@@ -72,51 +71,51 @@
 }
 
 .dark {
-  /* AUI Dark Mode Colors */
-  --background: #0F1419;
-  --foreground: #F9FAFB;
+  /* AUI Dark Mode Colors (using inverse values from tokens) */
+  --background: #252629;
+  --foreground: var(--aui-brand-white);
 
-  --card: #1F2937;
-  --card-foreground: #F9FAFB;
+  --card: #252629;
+  --card-foreground: var(--aui-brand-white);
 
-  --popover: #1F2937;
-  --popover-foreground: #F9FAFB;
+  --popover: #252629;
+  --popover-foreground: var(--aui-brand-white);
 
-  --primary: #3B82F6;
-  --primary-foreground: #FFFFFF;
+  --primary: #ca93ff;
+  --primary-foreground: #590099;
 
-  --secondary: #374151;
-  --secondary-foreground: #D1D5DB;
+  --secondary: #4a4256;
+  --secondary-foreground: #c4b5d2;
 
-  --muted: #374151;
-  --muted-foreground: #9CA3AF;
+  --muted: #353339;
+  --muted-foreground: #9b9ca0;
 
-  --accent: #06B6D4;
-  --accent-foreground: #FFFFFF;
+  --accent: var(--aui-brand-asurion-blue);
+  --accent-foreground: var(--aui-brand-white);
 
-  --destructive: #F87171;
-  --destructive-foreground: #FFFFFF;
+  --destructive: #ff6b75;
+  --destructive-foreground: var(--aui-brand-white);
 
-  --border: #374151;
-  --input: #374151;
-  --ring: #3B82F6;
+  --border: #4a4a4e;
+  --input: #3a3a3e;
+  --ring: #ca93ff;
 
   /* AUI Dark Mode Chart Colors */
-  --chart-1: #3B82F6;
-  --chart-2: #06B6D4;
-  --chart-3: #8B5CF6;
-  --chart-4: #10B981;
-  --chart-5: #F59E0B;
+  --chart-1: #ca93ff;
+  --chart-2: var(--aui-brand-asurion-blue);
+  --chart-3: var(--aui-brand-asurion-green);
+  --chart-4: #c5ffc8;
+  --chart-5: #fff0c0;
 
   /* AUI Dark Mode Sidebar Colors */
-  --sidebar: #1F2937;
-  --sidebar-foreground: #F9FAFB;
-  --sidebar-primary: #3B82F6;
-  --sidebar-primary-foreground: #FFFFFF;
-  --sidebar-accent: #06B6D4;
-  --sidebar-accent-foreground: #FFFFFF;
-  --sidebar-border: #374151;
-  --sidebar-ring: #3B82F6;
+  --sidebar: #252629;
+  --sidebar-foreground: var(--aui-brand-white);
+  --sidebar-primary: #ca93ff;
+  --sidebar-primary-foreground: #590099;
+  --sidebar-accent: var(--aui-brand-asurion-blue);
+  --sidebar-accent-foreground: var(--aui-brand-white);
+  --sidebar-border: #4a4a4e;
+  --sidebar-ring: #ca93ff;
 
   --shadow-2xs: 0 1px 3px 0px hsl(0 0% 0% / 0.05);
   --shadow-xs: 0 1px 3px 0px hsl(0 0% 0% / 0.05);
